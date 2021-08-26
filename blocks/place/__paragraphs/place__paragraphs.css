@@ -1,0 +1,28 @@
+.place__paragraphs{
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  margin-left: 40px;
+}
+
+@media (max-width:1024px){
+  .place__paragraphs{
+    max-width: 456px;
+    margin-left: 32px;
+  }
+}
+
+@media (max-width:768px){
+  .place__paragraphs{
+    max-width: 352px;
+    margin-left: 28px;
+  }
+}
+
+@media (max-width:320px){
+  .place__paragraphs{
+    max-width: 288px;
+    margin-bottom: 25px;
+    margin: 0;
+  }
+}

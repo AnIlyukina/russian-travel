@@ -1,0 +1,5 @@
+.intro__content{
+  width: 690px;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,21 +1,27 @@
 .header{
-  width: 1184px;
+  max-width: 1184px;
   height: 52px;
   display: flex;
   justify-content: space-between;
-  margin: 28px 48px;
+  margin: 28px 48px 56px 48px;
   align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .header{
+    margin: 28px 48px 48px;
+  }
 }
 
 @media (max-width: 768px) {
   .header{
-    margin: 28px 24px;
+    margin: 28px 24px 48px;
   }
 }
 
 @media (max-width: 320px) {
   .header{
-    margin: 16px;
+    margin: 16px 16px 48px;
     height: 42px;
   }
 }
