@@ -9,8 +9,6 @@
 @media (max-width:1024px){
   .place__content{
     max-width: 928px;
-    
-    
   }
 }
 
@@ -22,12 +20,21 @@
   }
 }
 
+@media (max-width:500px){
+  .place__content{
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    flex-direction: column;
+    margin: 15px;
+  }
+}
+
 @media (max-width:320px){
   .place__content{
     display: flex;
     align-items: center;
     max-width: 320px;
-
     flex-direction: column;
   }
 }
