@@ -1,5 +1,5 @@
 .intro{
-  max-width: 984px;
+  max-width: 1280px;
   width: 100%;
   color: #fff;
   display: flex;
@@ -9,24 +9,21 @@
 
 @media (max-width:1024px){
   .intro{
-    max-width: 928px;
-    width: 100%;
+    max-width: 1024px;
     margin-top: 88px;
   }
 }
 
 @media (max-width:768px){
   .intro{
-    max-width: 720px;
-    width: 100%;
+    max-width: 768px;
     margin-top: 88px;
   }
 }
 
 @media (max-width:320px){
   .intro{
-    width: 288px;
-    height: 754px;
+    max-width: 320px;
     margin-top: 64px;
   }
 }

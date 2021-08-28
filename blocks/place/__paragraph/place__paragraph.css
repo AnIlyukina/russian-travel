@@ -14,23 +14,15 @@
   margin-bottom: 0px;
 }
 
-@media (max-width:1024px){
-  .place__paragraph{
-    max-width: 456px;
-  }
-}
 
 @media (max-width:768px){
   .place__paragraph{
-    max-width: 352px;
     font-size: 16px;
     line-height: 26px;
   }
 }
 
-@media (max-width:320px){
-  .place__paragraph{
-    max-width: 288px;
-  }
-}
+
+
+
 

@@ -5,24 +5,17 @@
   margin-left: 40px;
 }
 
-@media (max-width:1024px){
-  .place__paragraphs{
-    max-width: 456px;
-    margin-left: 32px;
-  }
-}
 
-@media (max-width:768px){
+@media (max-width:620px){
   .place__paragraphs{
-    max-width: 352px;
-    margin-left: 28px;
+    margin-left: 50px;
+    margin: 0;
   }
 }
 
 @media (max-width:320px){
   .place__paragraphs{
-    max-width: 288px;
-    margin-bottom: 25px;
+    padding-left: 16px;
     margin: 0;
   }
 }

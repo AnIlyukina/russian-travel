@@ -9,11 +9,15 @@
   margin: 0;
 }
 
-
+@media (max-width:1024px){
+  .place__title{
+    max-width: 440px;
+  }
+}
 
 @media (max-width:768px){
   .place__title{
-    max-width: 340px;
+    max-width: 320px;
     font-size: 42px;
     line-height: 46px;  
   }

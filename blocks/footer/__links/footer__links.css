@@ -4,6 +4,15 @@
   width: 465px;
 }
 
+@media (max-width: 620px){
+  .footer__links{
+    flex-direction: column;
+    max-width: 186px;
+    height: 248px;
+  } 
+}
+
+
 @media (max-width: 320px){
   .footer__links{
     flex-direction: column;

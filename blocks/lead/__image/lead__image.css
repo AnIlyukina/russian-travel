@@ -3,7 +3,7 @@
   height: 615px;
   margin-top: 64px;
   background-image: url(../../../images/lead__image.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -12,8 +12,7 @@
   @media (max-width: 1024px){
   .lead__image{
     max-width: 928px;
-    width: 100%;
-    height: 580px;
+    max-height: 580px;
     margin-top: 56px;
   }
 } 
@@ -21,15 +20,31 @@
   @media (max-width: 768px){
   .lead__image{
     max-width: 928px;
-    height: 480px;
+    max-height: 480px;
     margin-top: 56px;
     
   }
 }
 
+@media (max-width: 760px){
+  .lead__image{
+    max-height: 300px;
+    margin-top: 56px;
+    
+  }
+}
+
+@media (max-width: 400px){
+  .lead__image{
+    max-height: 200px;
+    margin-top: 40px;
+    
+  }
+} 
+
 @media (max-width: 320px){
   .lead__image{
-    height: 200px;
+    max-height: 200px;
     margin-top: 40px;
     
   }

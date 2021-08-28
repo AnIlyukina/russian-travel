@@ -1,5 +1,24 @@
 .intro__content{
-  width: 690px;
+  max-width: 690px;
   display: flex;
   flex-direction: column;
+  margin-left: 148px;
+}
+
+@media (max-width:1024px){
+  .intro__content{
+    margin-left: 48px;
+  }
+}
+
+@media (max-width:768px){
+  .intro__content{
+    margin-left: 24px;
+  }
+}
+
+@media (max-width:320px){
+  .intro__content{
+    margin-left: 16px;
+  }
 }

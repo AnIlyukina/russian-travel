@@ -1,6 +1,5 @@
 .lead__title{
   max-width: 720px;
-  height: 200px;
   font-family:'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -11,10 +10,9 @@
   padding: 0;
 }
 
-@media (max-width: 676px){
+@media (max-width: 760px){
   .lead__title{
-    width: 288px;
-    height: 88px;
+    max-width: 288px;
     font-size: 40px;
     line-height: 44px;
   }
@@ -22,8 +20,7 @@
 
 @media (max-width: 320px){
   .lead__title{
-    width: 288px;
-    height: 88px;
+    max-width: 288px;
     font-size: 40px;
     line-height: 44px;
   }

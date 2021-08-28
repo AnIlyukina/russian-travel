@@ -1,37 +1,30 @@
 .cover{
   max-width: 1184px;
-  width: 100%;
-  height: 740px;
-  background-image: url(../../images/cover__image.jpg);
-  background-size: cover;
-  position: relative;
   margin: 92px auto;
 }
 
-@media (max-width: 1024px){
+
+
+@media (max-width:1024px){
   .cover{
     max-width: 1024px;
-    width: 100%;
-    height: 640px;
   }
-} 
+}
 
-@media (max-width: 768px){
+@media (max-width:950px){
   .cover{
     max-width: 768px;
-    width: 100%;
-    height: 480px;
-    margin-top: 90px;
-    margin-bottom: 88px;
   }
-} 
+}
 
-@media (max-width: 320px){
+@media (max-width:768px){
+  .cover{
+    max-width: 768px;
+  }
+}
+
+@media (max-width:320px){
   .cover{
     max-width: 320px;
-    width: 100%;
-    height: 200px;
-    margin-top: 66px;
-    margin-bottom: 64px;
   }
-} 
+}

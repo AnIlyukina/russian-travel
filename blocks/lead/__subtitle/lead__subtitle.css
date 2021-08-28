@@ -1,7 +1,5 @@
 .lead__subtitle{
-  width: 640px;
-  height: 72px;
-  /* flex: 0 0 auto; */
+  max-width: 640px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -14,10 +12,9 @@
   margin-top: 32px;
 }
 
-@media (max-width: 676px){
+@media (max-width: 760px){
   .lead__subtitle{
-    width: 288px;
-    height: 40px;
+    max-width: 288px;
     font-size: 16px;
     line-height: 20px;
     margin-top: 16px;
@@ -26,8 +23,7 @@
 
 @media (max-width: 320px){
   .lead__subtitle{
-    width: 288px;
-    height: 40px;
+    max-width: 288px;
     font-size: 16px;
     line-height: 20px;
     margin-top: 16px;

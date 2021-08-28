@@ -27,6 +27,15 @@
   }
 }
 
+@media (max-width:600px){
+  .photo-grid__grid{
+    max-width: 600px;
+    width: 450px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 300px;
+  }
+}
+
 @media (max-width:320px){
   .photo-grid__grid{
     max-width: 288px;

@@ -8,3 +8,8 @@
   color: #fff;
 }
 
+@media (max-width: 620px){
+  .footer__copyright{
+    margin-top: 48px;
+ } 
+}
