@@ -6,10 +6,12 @@
   line-height: 18px;
   text-decoration: none;
   color: #fff;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .footer__link:hover{
   cursor: url(../../../images/Cursor/Pointer.png), pointer;
+  opacity: .8;
 }
 
 
