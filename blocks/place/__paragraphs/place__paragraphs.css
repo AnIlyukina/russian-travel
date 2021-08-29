@@ -5,6 +5,17 @@
   margin-left: 40px;
 }
 
+@media (max-width:1024px){
+  .place__paragraphs{
+    margin-left: 32px;
+  }
+}
+
+@media (max-width:768px){
+  .place__paragraphs{
+    margin-left: 28px;
+  }
+}
 
 @media (max-width:620px){
   .place__paragraphs{

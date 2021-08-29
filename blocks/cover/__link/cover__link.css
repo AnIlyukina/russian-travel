@@ -23,6 +23,10 @@
   transition: opacity 0.3s ease-in-out;
 }
 
+.cover__link:hover{
+  cursor: url(../../../images/Cursor/Pointer.png), pointer;
+}
+
 .cover__link:hover::after {
   opacity: 0.8;
   cursor: url(../../../images/Cursor/Pointer.png), pointer;

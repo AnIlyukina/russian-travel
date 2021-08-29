@@ -14,11 +14,24 @@
   margin-bottom: 0px;
 }
 
+@media (max-width:940px){
+  .place__paragraph{
+    padding-right: 16px;
+  }
+}
+
 
 @media (max-width:768px){
   .place__paragraph{
     font-size: 16px;
     line-height: 26px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width:730px){
+  .place__paragraph{
+    padding-right: 16px;
   }
 }
 

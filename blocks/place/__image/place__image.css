@@ -19,9 +19,9 @@
   }
 }
 
-@media (max-width:500px){
+@media (max-width:620px){
   .place__image{
-    margin: 0;
+    margin-bottom: 50px;
   }
 }
 
