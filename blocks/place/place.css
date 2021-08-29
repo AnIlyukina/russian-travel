@@ -8,3 +8,9 @@
 .place:last-child{
   margin-bottom: 0px;
 }
+
+@media (max-width:320px){
+  .place{
+    margin-bottom: 50px;
+  }
+}

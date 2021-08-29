@@ -1,15 +1,16 @@
 .footer{
+  box-sizing: border-box;
   max-width: 1280px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 0px 24px;
+  padding-bottom: 24px;
+  margin: 0 auto;
 }
 
 @media (max-width: 1184px){
   .footer{
-    margin: 0 48px 24px;
-    
+    margin: 0 48px;
   } 
 }
 
@@ -23,14 +24,15 @@
 @media (max-width: 768px){
   .footer{
     max-width: 768px;
-    margin: 0 24px 24px;
+    margin: 0 24px;
+
   } 
 }
 
 @media (max-width: 630px){
   .footer{
     flex-direction: column;
-    margin-bottom: 14px;
+    padding-bottom: 14px;
     margin-left: 16px;
  } 
 }
@@ -39,8 +41,5 @@
 @media (max-width: 320px){
   .footer{
     max-width: 320px;
-    flex-direction: column;
-    margin-bottom: 14px;
-    margin-left: 16px;
  } 
 }

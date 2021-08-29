@@ -8,6 +8,7 @@
   line-height: 29px;
   margin: 0;
   margin-bottom: 26px;
+  box-sizing: border-box;
 }
 
 .place__paragraph:last-child{
@@ -31,7 +32,7 @@
 
 @media (max-width:730px){
   .place__paragraph{
-    padding-right: 16px;
+    padding: 0 16px;
   }
 }
 
