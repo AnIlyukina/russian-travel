@@ -17,8 +17,16 @@
   }
 }
 
+@media (max-width:710px){
+  .intro__content{
+    padding-right: 24px;
+  }
+}
+
+
 @media (max-width:320px){
   .intro__content{
     margin-left: 16px;
+    padding-right: 0px;
   }
 }
