@@ -29,13 +29,19 @@
   cursor: url(../../../images/Cursor/Pointer.png), pointer;
 }
 
-@media (max-width:1024px){
+@media (max-width:1132px){
   .cover__link{
     padding: 195px 232px;
   }
 }
 
-@media (max-width:950px){
+/* @media (max-width:1024px){
+  .cover__link{
+    padding: 195px 232px;
+  }
+} */
+
+@media (max-width:970px){
   .cover__link{
     padding: 130px 110px;
   }
