@@ -3,16 +3,22 @@
   min-height: 42px;
   display: flex;
   justify-content: space-between;
-  margin: 0px 48px 56px 48px;
+  margin-bottom: 56px;
   box-sizing: border-box;
   padding-top: 28px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1184px) {
   .header{
     margin: 0px 48px 48px;
   }
 }
+
+/* @media (max-width: 1024px) {
+  .header{
+    margin: 0px 48px 48px;
+  }
+} */
 
 @media (max-width: 768px) {
   .header{
