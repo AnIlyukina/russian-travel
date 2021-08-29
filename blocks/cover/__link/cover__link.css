@@ -25,12 +25,12 @@
 }
 
 .cover__link:hover{
-  cursor: url(../../../images/Cursor/Pointer.png), pointer;
+  cursor: url(../../../images/Cursor/pointer.svg), pointer;
 }
 
 .cover__link:hover::after {
   opacity: 0.8;
-  cursor: url(../../../images/Cursor/Pointer.png), pointer;
+  cursor: url(../../../images/Cursor/pointer.svg), pointer;
 }
 
 @media (max-width:1132px){

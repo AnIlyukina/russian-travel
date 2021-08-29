@@ -10,7 +10,7 @@
 }
 
 .footer__link:hover{
-  cursor: url(../../../images/Cursor/Pointer.png), pointer;
+  cursor: url(../../../images/Cursor/pointer.svg), pointer;
   opacity: .8;
 }
 
