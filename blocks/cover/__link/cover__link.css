@@ -1,4 +1,67 @@
 .cover__link{
+  display: block;
   text-decoration: none;
   color: #fff;
+  position: relative;
+  background-image: url(../../../images/cover__image.jpg);
+  background-size: cover;
+  padding: 245px 312px;
+  z-index: 2;
+  color: #fff;
+  text-align: center;
 }
+
+.cover__link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2A2C2F;
+  opacity: .3;
+  z-index: -1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.cover__link:hover::after {
+  opacity: 0.8;
+  cursor: url(../../../images/Cursor/Pointer.png), pointer;
+}
+
+@media (max-width:1024px){
+  .cover__link{
+    padding: 195px 232px;
+  }
+}
+
+@media (max-width:950px){
+  .cover__link{
+    padding: 130px 110px;
+  }
+}
+
+@media (max-width:768px){
+  .cover__link{
+    padding: 115px 104px;
+  }
+}
+
+@media (max-width:720px){
+  .cover__link{
+    padding: 100px 50px;
+  }
+}
+
+@media (max-width:420px){
+  .cover__link{
+    padding: 50px 50px;
+  }
+}
+
+@media (max-width:320px){
+  .cover__link{
+    padding: 33px 16px;
+  }
+}
+

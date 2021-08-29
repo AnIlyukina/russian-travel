@@ -3,28 +3,3 @@
   margin: 92px auto;
 }
 
-
-
-@media (max-width:1024px){
-  .cover{
-    max-width: 1024px;
-  }
-}
-
-@media (max-width:950px){
-  .cover{
-    max-width: 768px;
-  }
-}
-
-@media (max-width:768px){
-  .cover{
-    max-width: 768px;
-  }
-}
-
-@media (max-width:320px){
-  .cover{
-    max-width: 320px;
-  }
-}
