@@ -1,6 +1,6 @@
 .header__lang-link{
-  width: 30px;
-  height: 28px;
+  max-width: 30px;
+  max-height: 28px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -11,8 +11,8 @@
 
 @media (max-width: 320px) {
   .header__lang-link{
-    width: 22px;
-    height: 20px;
+    max-width: 22px;
+    max-height: 20px;
     font-size: 18px;
     line-height: 20px;
   }
