@@ -1,4 +1,4 @@
-.website{
+.place__website{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -7,23 +7,24 @@
 }
 
 @media (max-width:768px){
-  .website{
+  .place__website{
     margin-left: 60px;
   }
 }
 
 @media (max-width:620px){
-  .website{
+  .place__website{
     max-width: 288px;
     margin-top: 32px;
+    margin-left: 0px;
     align-self: flex-start;
-    margin-left: 100px;
+
     
   }
 }
 
 @media (max-width:320px){
-  .website{
+  .place__website{
     max-width: 288px;
     margin-top: 32px;
     align-self: flex-start;

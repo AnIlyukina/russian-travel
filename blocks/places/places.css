@@ -3,8 +3,6 @@
   flex-direction: column;
   max-width: 984px;
   margin-top: 92px;
-  align-items: center;
-  justify-content: space-between;
 }
 
 @media (max-width:1024px){

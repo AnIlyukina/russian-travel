@@ -1,4 +1,4 @@
-.website__link{
+.place__link{
   font-family:'Inter', Arial, Helvetica, sans-serif;
   color: white;
   font-style: normal;
@@ -8,6 +8,6 @@
   margin-top: 12px;
 }
 
-.website__link:hover{
+.place__link:hover{
   cursor: pointer;
 }

@@ -1,19 +1,35 @@
 .place__content{
   display: flex;
-  max-width: 984px;
   flex-direction: row;
+}
+
+@media (max-width:926px){
+  .place__content{
+    margin-left: 48px;
+  }
+}
+
+@media (max-width:768px){
+  .place__content{
+    margin-left: 0;
+  }
+}
+
+@media (max-width:720px){
+  .place__content{
+    margin-left: 24px;
+  }
 }
 
 @media (max-width:620px){
   .place__content{
     display: flex;
-    align-items: center;
     flex-direction: column;
-    margin: 0;
+    margin-left: 20px;
   }
 }
 
-@media (max-width:320px){
+@media (max-width:360px){
   .place__content{
     display: flex;
     align-items: center;
