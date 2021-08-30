@@ -7,10 +7,11 @@
   list-style: none;
   gap: 16px;
 }
+
 @media (max-width:1024px){
   .photo-grid__grid{
     max-width: 928px;
-    width: 928px;
+    width: 100%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 225px 225px 225px;
     gap: 14px;
@@ -20,7 +21,7 @@
 @media (max-width:768px){
   .photo-grid__grid{
     max-width: 720px;
-    width: 720px;
+    width: 100%;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 264px 264px;
     gap: 16px;
@@ -30,7 +31,7 @@
 @media (max-width:600px){
   .photo-grid__grid{
     max-width: 600px;
-    width: 450px;
+    width: 100%;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 300px;
   }
@@ -38,8 +39,8 @@
 
 @media (max-width:320px){
   .photo-grid__grid{
-    max-width: 288px;
-    width: 288px;
+    min-width: 288px;
+    width: 100%;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 216px;
   }

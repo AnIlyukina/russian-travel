@@ -15,7 +15,6 @@
 
   @media (max-width: 768px){
   .lead__image{
-    max-width: 928px;
     height: auto;
     margin-top: 56px;
   }

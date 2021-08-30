@@ -7,6 +7,7 @@
   background-size: cover;
   padding: 245px 312px;
   z-index: 2;
+  cursor: url(../../../images/Cursor/pointer.svg), pointer;
   text-align: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -28,13 +29,9 @@
   transition: opacity 0.3s ease-in-out;
 }
 
-.cover__link:hover{
-  cursor: url(../../../images/Cursor/pointer.svg), pointer;
-}
 
 .cover__link:hover::after {
   opacity: 0.8;
-  cursor: url(../../../images/Cursor/pointer.svg), pointer;
 }
 
 @media (max-width:1132px){

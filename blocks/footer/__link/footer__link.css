@@ -16,11 +16,16 @@
   opacity: .8;
 }
 
+@media (max-width: 630px){
+  .footer__link{
+    font-size: 24px;
+    line-height: 24px;
+  } 
+}
+
 
 @media (max-width: 320px){
   .footer__link{
     max-width: 320px;
-    font-size: 24px;
-    line-height: 24px;
   } 
 }

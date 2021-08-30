@@ -22,16 +22,10 @@
   }
 }
 
-@media (max-width:710px){
-  .intro__content{
-    padding-right: 24px;
-  }
-}
-
 
 @media (max-width:320px){
   .intro__content{
-    padding-right: 0px;
+    padding: 0px;
     margin: 0 16px;
   }
 }

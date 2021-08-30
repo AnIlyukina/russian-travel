@@ -16,7 +16,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     max-width: 186px;
-    height: 248px;
+    min-height: 310px;
   } 
 }
 
@@ -28,6 +28,6 @@
         -ms-flex-direction: column;
             flex-direction: column;
     max-width: 186px;
-    height: 248px;
+    min-height: 310px;
   } 
 }

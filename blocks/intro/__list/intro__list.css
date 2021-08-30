@@ -1,4 +1,5 @@
 .intro__list{
+  min-width: 288px;
   font-family:'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -6,5 +7,4 @@
   line-height: 18px;
   margin: 0;
   margin-top: 33px;
-  white-space: pre-line;
 }
