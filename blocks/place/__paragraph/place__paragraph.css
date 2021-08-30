@@ -8,7 +8,8 @@
   line-height: 29px;
   margin: 0;
   margin-bottom: 26px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .place__paragraph:last-child{

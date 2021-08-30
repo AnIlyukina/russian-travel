@@ -8,6 +8,8 @@
   padding: 245px 312px;
   z-index: 2;
   text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   
 }
 
@@ -21,6 +23,8 @@
   background-color: #2A2C2F;
   opacity: .3;
   z-index: -1;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
 

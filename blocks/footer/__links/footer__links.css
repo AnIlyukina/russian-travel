@@ -1,12 +1,20 @@
 .footer__links{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  width: 465px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 465px;
+  width: 100%;
 }
 
-@media (max-width: 620px){
+@media (max-width: 630px){
   .footer__links{
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     max-width: 186px;
     height: 248px;
   } 
@@ -15,7 +23,10 @@
 
 @media (max-width: 320px){
   .footer__links{
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     max-width: 186px;
     height: 248px;
   } 

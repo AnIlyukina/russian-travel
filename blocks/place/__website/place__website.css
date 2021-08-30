@@ -18,17 +18,11 @@
     margin-top: 32px;
     margin-left: 0px;
     align-self: flex-start;
-
-    
   }
 }
 
 @media (max-width:350px){
   .place__website{
-    max-width: 288px;
-    margin-top: 32px;
-    align-self: flex-start;
     margin-left: 16px;
-    
   }
 }

@@ -7,7 +7,9 @@
   line-height: 14px;
   margin: 0;
   margin-top: 8px;
-  align-self: start;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
   text-transform: uppercase;
 }
 

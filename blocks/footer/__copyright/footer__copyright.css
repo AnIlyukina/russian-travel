@@ -8,7 +8,7 @@
   color: #fff;
 }
 
-@media (max-width: 620px){
+@media (max-width: 630px){
   .footer__copyright{
     margin-top: 48px;
  } 

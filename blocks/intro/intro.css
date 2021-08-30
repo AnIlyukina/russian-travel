@@ -3,8 +3,12 @@
   max-width: 984px;
   min-width: 288px;
   color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
   margin: 92px auto 0;
 }
 

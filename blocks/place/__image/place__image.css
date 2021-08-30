@@ -1,35 +1,44 @@
 .place__image{
   max-width: 460px;
   max-height: 460px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   margin-top: 48px;
 }
 
 @media (max-width:1024px){
   .place__image{
     max-width: 440px;
-    height: 440px;
+    max-height: 440px;
   }
 }
 
 @media (max-width:768px){
   .place__image{
     max-width: 340px;
-    height: 340px;
+    max-height: 340px;
+  }
+}
+
+@media (max-width:700px){
+  .place__image{
+    max-width: 300px;
+    max-height: 300px;
   }
 }
 
 @media (max-width:620px){
   .place__image{
     margin-bottom: 50px;
+    max-width: 320px;
+    max-height: 320px;
+    align-self:center;
   }
 }
 
 
 @media (max-width:360px){
   .place__image{
-    max-width: 320px;
-    height: 320px;
     margin: 32px 0;
   }
 }
