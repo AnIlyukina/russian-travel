@@ -1,18 +1,14 @@
 .lead__image{
   width: 100%;
-  height: 615px;
+  height: auto;
   margin-top: 64px;
-  background-image: url(../../../images/lead__image.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  object-fit: cover;
 }
-
 
   @media (max-width: 1024px){
   .lead__image{
     max-width: 928px;
-    max-height: 580px;
+    height: auto;
     margin-top: 56px;
   }
 } 
@@ -20,32 +16,15 @@
   @media (max-width: 768px){
   .lead__image{
     max-width: 928px;
-    max-height: 480px;
+    height: auto;
     margin-top: 56px;
-    
   }
 }
 
-@media (max-width: 760px){
-  .lead__image{
-    max-height: 300px;
-    margin-top: 56px;
-    
-  }
-}
-
-@media (max-width: 400px){
-  .lead__image{
-    max-height: 200px;
-    margin-top: 40px;
-    
-  }
-} 
 
 @media (max-width: 320px){
   .lead__image{
-    max-height: 200px;
-    margin-top: 40px;
-    
+    height: auto;
+    margin-top: 40px;  
   }
 } 

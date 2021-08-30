@@ -31,9 +31,9 @@
   }
 }
 
-@media (max-width:730px){
+@media (max-width:340px){
   .place__paragraph{
-    padding: 0 16px;
+    margin: 0 16px;
   }
 }
 
