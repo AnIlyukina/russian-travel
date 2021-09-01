@@ -1,17 +1,13 @@
-.cover__link{
+.cover__link {
   display: block;
   text-decoration: none;
   color: #fff;
   position: relative;
   background-image: url(../../../images/cover__image.jpg);
   background-size: cover;
-  padding: 245px 312px;
-  z-index: 2;
+  padding: 33px 16px;
+  z-index: 0;
   cursor: url(../../../images/Cursor/pointer.svg), pointer;
-  text-align: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  
 }
 
 .cover__link::after {
@@ -29,44 +25,30 @@
   transition: opacity 0.3s ease-in-out;
 }
 
-
 .cover__link:hover::after {
   opacity: 0.8;
 }
 
-@media (max-width:1132px){
+@media (min-width:450px){
   .cover__link{
-    padding: 195px 232px;
+    padding: 90px 104px;
   }
 }
 
-@media (max-width:970px){
-  .cover__link{
-    padding: 130px 110px;
-  }
-}
-
-@media (max-width:768px){
+@media (min-width:767px){
   .cover__link{
     padding: 115px 104px;
   }
 }
 
-@media (max-width:720px){
+@media (min-width:1024px){
   .cover__link{
-    padding: 100px 50px;
+    padding: 195px 232px;
   }
 }
 
-@media (max-width:420px){
+@media (min-width:1280px){
   .cover__link{
-    padding: 40px 40px;
+    padding: 245px 312px;
   }
 }
-
-@media (max-width:320px){
-  .cover__link{
-    padding: 33px 16px;
-  }
-}
-
