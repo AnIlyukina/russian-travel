@@ -20,13 +20,7 @@
   }
 }
 
-@media (max-width:720px){
-  .place__content{
-    margin-left: 24px;
-  }
-}
-
-@media (max-width:620px){
+@media (max-width:650px){
   .place__content{
     display: -webkit-box;
     display: -ms-flexbox;

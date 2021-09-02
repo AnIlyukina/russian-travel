@@ -15,11 +15,17 @@
   }
 }
 
+@media (max-width:880px){
+  .place__title{
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 46px;  
+  }
+}
+
 @media (max-width:768px){
   .place__title{
     max-width: 320px;
-    font-size: 42px;
-    line-height: 46px;  
   }
 }
 

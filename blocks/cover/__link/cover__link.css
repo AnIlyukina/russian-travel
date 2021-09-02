@@ -5,6 +5,7 @@
   position: relative;
   background-image: url(../../../images/cover__image.jpg);
   background-size: cover;
+  background-position: center;
   padding: 33px 16px;
   z-index: 0;
   cursor: url(../../../images/Cursor/pointer.svg), pointer;

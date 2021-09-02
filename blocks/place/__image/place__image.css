@@ -13,31 +13,17 @@
   }
 }
 
-@media (max-width:768px){
+@media (max-width:880px){
   .place__image{
     max-width: 340px;
     max-height: 340px;
   }
 }
 
-@media (max-width:700px){
+@media (max-width:650px){
   .place__image{
-    max-width: 300px;
-    max-height: 300px;
-  }
-}
-
-@media (max-width:620px){
-  .place__image{
-    margin-bottom: 50px;
     max-width: 320px;
     max-height: 320px;
-  }
-}
-
-
-@media (max-width:360px){
-  .place__image{
     margin: 32px 0;
   }
 }

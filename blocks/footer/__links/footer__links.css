@@ -16,18 +16,6 @@
         -ms-flex-direction: column;
             flex-direction: column;
     max-width: 186px;
-    min-height: 310px;
-  } 
-}
-
-
-@media (max-width: 320px){
-  .footer__links{
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    max-width: 186px;
-    min-height: 310px;
+    min-height: 248px;
   } 
 }

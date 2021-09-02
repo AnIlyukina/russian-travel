@@ -2,20 +2,19 @@
   width: 100%;
   height: auto;
   margin-top: 64px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
   @media (max-width: 1024px){
   .lead__image{
     max-width: 928px;
-    height: auto;
     margin-top: 56px;
   }
 } 
 
   @media (max-width: 768px){
   .lead__image{
-    height: auto;
     margin-top: 56px;
   }
 }
@@ -23,7 +22,6 @@
 
 @media (max-width: 320px){
   .lead__image{
-    height: auto;
     margin-top: 40px;  
   }
 } 

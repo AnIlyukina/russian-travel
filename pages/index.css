@@ -18,15 +18,15 @@
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/lead/__content/lead__content.css);
 
-@import url(../blocks/inter-normal/inter-normal.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__content/intro__content.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__point/intro__point.css);
+@import url(../blocks/intro/__list-number/intro__list-number.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__grids/photo-grid__grids.css);
 @import url(../blocks/photo-grid/__grid/photo-grid__grid.css);
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
 

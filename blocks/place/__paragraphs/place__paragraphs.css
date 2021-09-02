@@ -22,14 +22,7 @@
   }
 }
 
-@media (max-width:620px){
-  .place__paragraphs{
-    margin-left: 50px;
-    margin: 0;
-  }
-}
-
-@media (max-width:350px){
+@media (max-width:650px){
   .place__paragraphs{
     margin: 0;
   }
