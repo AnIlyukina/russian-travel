@@ -16,5 +16,8 @@ ___
 
 ### Посмотреть:
 [Ссылка на GitHub Pages](https://anilyukina.github.io/russian-travel/) :feet:
+___
 
-
+### Можно лучше:
+:radio_button: Усовершенствовать адаптивную вестку с использование функции СSS - Calc                    
+:radio_button: Отформатировать код
